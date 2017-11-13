@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\inkscape.svg\shell\Fix Camunda-Modeler SVG]
+
+[HKEY_CLASSES_ROOT\inkscape.svg\shell\Fix Camunda-Modeler SVG\command]
+@="\"C:\\Program Files\\Inkscape\\inkscape.exe\" -z --export-pdf=\"%temp%\\transitionfile.pdf\" \"%1\" && \"C:\\Program Files\\Inkscape\\inkscape.exe\" -z --export-plain-svg=\"%1-fixed.svg\" \"%temp%\\transitionfile.pdf\""

@@ -12,6 +12,7 @@
 
 * copy `Template.bpmn` to `C:\Windows\ShellNew`
 * edit paths in `*.reg` files
+* execute `*.reg` files and import registry entries
 
 ## Troubleshooting
 
